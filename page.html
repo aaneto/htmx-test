@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+    </head>
+    <body>
+        <dialog id="d">
+            <p>Hello, Dialog!</p>
+            <button onclick="d.close()">Close</button>
+        </dialog>
+
+        <button onclick="d.showModal()">
+            Open Modal
+        </button>
+    </body>
+</html>

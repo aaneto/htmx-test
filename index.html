@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+    </head>
+    <body>
+        <button hx-get="http://127.0.0.1:3030/clicked" hx-trigger="click" hx-target="#other-div" hx-swap="outerHTML">Click Me</button>
+        <div id="other-div"></div>
+        <div><p>Hmmm</p></div>
+    </body>
+</html>
